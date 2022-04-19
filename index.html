@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- LIBS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+  <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- LIBS -->
+  <link rel="stylesheet" href="Sass/estilos.css">
+  <title>- ARG Exchanges-</title>
+  <script src = " https://unpkg.com/sweetalert/dist/sweetalert.min.js "></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
+</head>
+<body>
+  <!-- Inicio del Body -->
+  <!-- Inicio de main -->
+  <main id="main__1">
+    <section id="primerSection">
+      <div class="part__1">
+        <h1 id="tituloWelcome" class="partTitle animate__animated animate__flash animate__delay-2s animate__slow animate__repeat-2"> Bienvenidos </h1>
+        <h2 id="aWelcome" class="partTitle">a</h2>
+        <h3 id="argWelcome" class="partTitle animate__animated animate__jackInTheBox animate__delay-1.6s animate__slower" ><b>- ARG EXCHANGES -</b> </h3>
+        <button id="irConversor"><a href="#main__2">+Ir a convertir</a></button>
+      </div>
+      <div class="part__2">
+        <!-- <p id="parrafoPrincipal">Realiza tus conversiones de divisas de una manera sencilla y rapida. Aqui debajo encontraras nuestro conversor</p>
+        <button id="irConversor">Ir a convertir</button>
+        <ul>
+          <li>Realiza tus converciones</li>
+          <li>+50 tipos de divisas</li>
+          <li>Rapido y sencillo</li>
+        </ul> -->
+        <video muted autoplay loop src="./material/000289998-seamlessly-loopable-stock-exch.mp4" height="100%" width="auto"></video>
+      </div>
+    </section>
+</main> <br>
+<main id="main__2">
+  <!-- Inicio de main 2 -->
+  <section id="main2__part--1">
+    <ul class="list">
+      <li class="item" data-aos="fade-left" data-aos-duration="1300">Conversiones Sencillas y Rapidas</li>
+      <li class="item" data-aos="fade-left" data-aos-duration="1800">+50 Divisas</li>
+      <li class="item" data-aos="fade-left" data-aos-duration="2300">100% Gratuito</li>
+    </ul>
+  </section>
+  <!-- Inicio de part__2 -->
+  <section class="contenedorPrincipal" data-aos="zoom-out" data-aos-duration="1500">
+      <h2 id="tituloPrincipal">Conversor de Divisas</h2>
+      <form action="#">
+        <div class="contenedorMonto">
+          <p id="parrafo">- Ingrese el monto inicial -</p>
+          <input type="text" id="inputMonto">
+        </div>
+        <div class="dropList">
+          <div class="primerMoneda">
+            <p class="parrafo_1">Convertir de:</p>
+            <div class="selectBox selectBox__1">
+              <img src="https://flagcdn.com/48x36/ar.png" alt="flag" alt="Bandera 1 ARG CONVERSIONES">
+              <select id="select" class="select__1 select" value="USD"> <!-- Opciones Insertadas en JS --> </select>
+            </div>
+          </div>
+          <div class="contenedorIcon"><i class="fas fa-exchange-alt"></i></div>
+          <div class="segundaMoneda">
+            <p class="parrafo_2">Convertir a:</p>
+            <div class="selectBox selectBox__2">
+              <img src="https://flagcdn.com/48x36/us.png" alt="flag" alt="Bandera 2 ARG CONVERSIONES">
+              <select id="select" class="select__2 select"> <!-- Opciones Insertadas en JS --> </select>
+            </div>
+          </div>
+        </div>
+        <div class="contenedorBtnIntercambio"></div>
+        <button id="btnRealizarIntercambio">Realizar Exchange</button>
+      </form>
+    </section>
+</main>
+<footer id="footer"><p>Design By: "Argüello Ignacio"</p></footer>
+  
+
+<script src="./js/paises.js"></script>
+<script src="./js/script.js"></script>
+
+<script>
+  AOS.init();
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+</body>
+
+
+
+
+
+

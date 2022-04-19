@@ -1,0 +1,276 @@
+@import url("https://fonts.googleapis.com/css2?family=Hubballi&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hubballi&family=M+PLUS+Rounded+1c:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+#primerSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.part__1 {
+  width: 50%;
+  height: 100vh;
+  background-color: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.part__1 #tituloWelcome {
+  font-family: 'Teko', sans-serif;
+  font-size: 80px;
+  color: white;
+  letter-spacing: 10px;
+}
+
+.part__1 #aWelcome {
+  color: white;
+  font-family: 'Teko', sans-serif;
+  font-size: 50px;
+}
+
+.part__1 #argWelcome {
+  color: white;
+  font-family: 'Teko', sans-serif;
+  font-size: 55px;
+  letter-spacing: 8px;
+}
+
+.part__1 .partTitle {
+  margin: 13px 0px;
+}
+
+.part__1 #irConversor {
+  width: 210px;
+  border-radius: 40px;
+  height: 50px;
+  font-family: 'Teko', sans-serif;
+  font-size: 22px;
+  margin-top: 80px;
+  background-color: white;
+  letter-spacing: 1px;
+  padding-top: 4px;
+}
+
+.part__1 #irConversor a {
+  text-decoration: none;
+}
+
+.part__2 {
+  width: 50%;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+#main__2 {
+  background-color: black;
+  height: 100vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  margin-top: 12rem;
+}
+
+#main2__part--1 {
+  /* background-color: red; */
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 100px;
+}
+
+#main2__part--1 .list {
+  color: white;
+  font-family: 'Teko', sans-serif;
+  letter-spacing: 4px;
+  font-size: 30px;
+}
+
+#main2__part--1 .list .item {
+  margin: 50px 0px;
+}
+
+/* Contenedor Principal */
+.contenedorPrincipal {
+  border: 1px solid black;
+  border-radius: 25px;
+  width: 30rem;
+  height: 46rem;
+  margin: 3rem 10rem;
+  padding-top: 10px;
+  background-color: #242222;
+}
+
+.contenedorPrincipal #tituloPrincipal {
+  text-align: center;
+  margin: 10px 0px 0px 0px;
+  color: #1f22f8;
+  font-family: 'Teko', sans-serif;
+  letter-spacing: 5px;
+  font-size: 40px;
+}
+
+.contenedorPrincipal form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  /* justify-content: center; */
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contenedorPrincipal .contenedorMonto {
+  margin: 10px 0px;
+}
+
+.contenedorPrincipal .contenedorMonto p {
+  margin: 10px 5px;
+}
+
+.contenedorPrincipal .contenedorMonto #inputMonto {
+  margin: 2px -90px;
+  width: 400px;
+  border-radius: 10px;
+  padding: 6px;
+}
+
+.contenedorPrincipal .contenedorMonto #parrafo {
+  color: white;
+  margin: 25px 12px;
+  font-family: 'Teko', sans-serif;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+
+.contenedorPrincipal .primerMoneda .parrafo_1 {
+  margin: 20px 100px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #1f22f8;
+  font-family: 'Teko', sans-serif;
+}
+
+.contenedorPrincipal .primerMoneda .selectBox__1 {
+  margin: 10px 10px;
+  padding: 25px 0px;
+}
+
+.contenedorPrincipal .primerMoneda .selectBox__1 img {
+  margin: 0px 110px 5px 0px;
+  height: 3rem;
+}
+
+.contenedorPrincipal .primerMoneda .selectBox__1 .select__1 {
+  width: 100px;
+  border-radius: 10px;
+}
+
+.contenedorPrincipal .contenedorIcon {
+  margin: 15px 0px 25px 120px;
+  padding-left: 10px;
+}
+
+.contenedorPrincipal .contenedorIcon .fas {
+  color: white;
+}
+
+.contenedorPrincipal .segundaMoneda .parrafo_2 {
+  margin: 40px 100px;
+  color: #1f22f8;
+  font-family: 'Teko', sans-serif;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+
+.contenedorPrincipal .selectBox__2 {
+  margin: 10px 10px;
+}
+
+.contenedorPrincipal .selectBox__2 img {
+  margin: 10px 110px 5px 0px;
+  height: 3rem;
+}
+
+.contenedorPrincipal .selectBox__2 .select__2 {
+  width: 100px;
+  border-radius: 10px;
+}
+
+.contenedorPrincipal .contenedorBtnIntercambio {
+  margin: 10px 10px;
+}
+
+.contenedorPrincipal #btnRealizarIntercambio {
+  margin: 0px 10px;
+  width: 1px;
+}
+
+.contenedorPrincipal .total {
+  color: #1f22f8;
+  font-size: 20px;
+}
+
+.contenedorPrincipal #btnRealizarIntercambio {
+  margin-top: 15px;
+  height: 50px;
+  width: 250px;
+  border-radius: 50px;
+  padding-bottom: 3px;
+  background-color: black;
+  color: #9b9bac;
+  font-family: 'Teko', sans-serif;
+  letter-spacing: 3px;
+}
+
+#footer {
+  margin-top: 80px;
+}
+
+#footer p {
+  color: white;
+  font-family: 'Teko', sans-serif;
+  font-size: 20px;
+  letter-spacing: 3px;
+  text-align: center;
+}
+/*# sourceMappingURL=estilos.css.map */

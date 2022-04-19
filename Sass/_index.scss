@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+//MAIN 1
+
+//SECTION PRINCIPAL
+#primerSection{
+    display: flex;
+    flex-direction: row;
+}
+//PARTE 1
+.part__1{
+    width: 50%;
+    height: 100vh;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    #tituloWelcome{
+        font-family: 'Teko', sans-serif;
+        font-size: 80px;
+        color: white;
+        letter-spacing: 10px;
+    }
+    #aWelcome{
+        color: white;
+        font-family: 'Teko', sans-serif;
+        font-size: 50px;
+    }
+    #argWelcome{
+        color:white;
+        font-family: 'Teko', sans-serif;
+        font-size: 55px;
+        letter-spacing: 8px;
+    }
+    .partTitle{
+        margin: 13px 0px;
+    }
+    #irConversor{
+        width: 210px;
+        border-radius: 40px;
+        height: 50px;
+        font-family: 'Teko', sans-serif;
+        font-size: 22px;
+        margin-top: 80px;
+        background-color: rgb(255, 255, 255);
+        letter-spacing: 1px;
+        padding-top: 4px;
+        a{
+            text-decoration: none;
+        }
+    }
+}
+
+//PARTE 2
+.part__2{
+    width:50%;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+//MAIN 2
+#main__2{
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 12rem;
+}
+//MAIN2 PARTE1
+#main2__part--1{
+    /* background-color: red; */
+    width: 50%;
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    .list{
+        color: white;
+        font-family: 'Teko', sans-serif;
+        letter-spacing: 4px;
+        font-size: 30px;
+        .item{
+            margin: 50px 0px;
+        }
+    }
+}
+/* Contenedor Principal */
+.contenedorPrincipal{
+    border: 1px solid black;
+    border-radius: 25px;
+    width: 30rem;
+    height: 46rem;
+    margin:3rem 10rem;
+    padding-top: 10px;
+    background-color: rgb(36, 34, 34);
+    #tituloPrincipal{
+        text-align: center;
+        margin: 10px 0px 0px 0px;
+        color: rgb(31, 34, 248);
+        font-family: 'Teko', sans-serif;
+        letter-spacing: 5px;
+        font-size: 40px;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+    }
+    .contenedorMonto{
+        margin: 10px 0px;
+        p{
+            margin: 10px 5px;
+        }
+        #inputMonto{
+            margin: 2px -90px;
+            width: 400px;
+            border-radius: 10px;
+            padding: 6px;
+        }
+        #parrafo{
+            color: white;
+            margin: 25px 12px;
+            font-family: 'Teko', sans-serif;
+            letter-spacing: 2px;
+            font-size: 20px;
+        }
+    }
+    //MONEDA UNO
+    .primerMoneda{
+        .parrafo_1{
+            margin: 20px 100px;
+            font-size: 20px;
+            letter-spacing: 2px;
+            color: rgb(31, 34, 248);
+            font-family: 'Teko', sans-serif;
+        }
+        .selectBox__1{
+            margin: 10px 10px;
+            padding: 25px 0px;
+            img{
+                margin:0px 110px 5px 0px;
+                height: 3rem;
+            }
+            .select__1{
+                width: 100px;
+                border-radius: 10px;
+            }
+        }
+    }
+    //ICONO
+    .contenedorIcon{
+        margin: 15px 0px 25px 120px;
+        padding-left: 10px;
+        .fas{
+            color: white;
+        }
+    }
+
+    //SEGUNDA MONEDA
+    .segundaMoneda{
+        .parrafo_2{
+            margin: 40px 100px;
+            color: rgb(31, 34, 248);
+            font-family: 'Teko', sans-serif;
+            letter-spacing: 2px;
+            font-size: 20px;
+        }
+        
+    }
+    .selectBox__2{
+        margin: 10px 10px;
+        img{
+            margin:10px 110px 5px 0px;
+            height: 3rem;
+        }
+        .select__2{
+            width: 100px;
+            border-radius: 10px;
+        }
+    }
+    .contenedorBtnIntercambio{
+        margin: 10px 10px;
+        
+    } 
+    #btnRealizarIntercambio{
+        margin: 0px 10px;
+        width: 1px;
+        }
+        .total{
+            color: rgb(31, 34, 248);
+            font-size: 20px;
+        }
+        #btnRealizarIntercambio{
+            margin-top: 15px;
+            height: 50px;
+            width: 250px;
+            border-radius: 50px;
+            padding-bottom: 3px;
+            background-color: rgb(0, 0, 0);
+            color: rgb(155, 155, 172);
+            font-family: 'Teko', sans-serif;
+            letter-spacing: 3px;
+        }
+}
+
+#footer{
+    margin-top: 80px;
+    p{
+        color: white;
+        font-family: 'Teko', sans-serif;
+        font-size: 20px;
+        letter-spacing: 3px;
+        text-align: center;
+    }
+}
